@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.geysermc.hydraulic.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ext.BlockRegistryPopulatorMixin",
+    "ext.BlockStateSerializerMixin",
+    "ext.ItemTranslatorMixin",
+    "ext.MinecraftResourcePackReaderImplMixin",
+    "ext.InventoryUtilsMixin",
+    "ext.LocationAwareSlf4JLoggerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
